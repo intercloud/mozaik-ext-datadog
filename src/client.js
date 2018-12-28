@@ -15,7 +15,6 @@ const client = function (mozaik) {
         let applicationKey = config.get('datadog.application_key')
         let url     = baseURL + "?api_key=" + apiKey + "&application_key=" + applicationKey
         let req     = request.get(url);
-        console.log(req)
         mozaik.logger.info(chalk.yellow(`[json] calling ${ url }`));
 
         return req.promise();
@@ -26,7 +25,7 @@ const client = function (mozaik) {
             return buildApiRequest()
                 .then(res => {
                     console.log(res.body)
-                    return JSON.parse(res.body)}
+                    return res.body}
                 )
             ;
         }

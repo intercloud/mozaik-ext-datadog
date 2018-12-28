@@ -54,7 +54,6 @@ class Data extends Component {
 
     onApiData(data) {
         // Filter if defined
-        console.log(data)
         // if (this.props.alter) {
         //   var alter = eval("(" + this.props.alter + ")");
         //   data = alter(data);

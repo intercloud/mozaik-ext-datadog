@@ -60,7 +60,8 @@ class Data extends Component {
         // }
         console.log(data)
         this.setState({
-            title: data.orgs[0].name
+            title: data.orgs[0].name,
+            value: data.orgs[0].description
         });
     }
 

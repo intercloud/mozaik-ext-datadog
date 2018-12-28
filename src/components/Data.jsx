@@ -58,8 +58,9 @@ class Data extends Component {
         //   var alter = eval("(" + this.props.alter + ")");
         //   data = alter(data);
         // }
+        console.log(data)
         this.setState({
-            title: data.orgs.name
+            title: data.orgs[0].name
         });
     }
 

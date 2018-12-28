@@ -24,7 +24,6 @@ const client = function (mozaik) {
         data(params) {
             return buildApiRequest()
                 .then(res => {
-                    console.log(res.body)
                     return res.body}
                 )
             ;

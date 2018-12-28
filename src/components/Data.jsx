@@ -59,7 +59,7 @@ class Data extends Component {
         //   data = alter(data);
         // }
         this.setState({
-            title: this.findProp(data, this.props.name)
+            title: data.name
         });
     }
 

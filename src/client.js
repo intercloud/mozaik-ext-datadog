@@ -13,7 +13,7 @@ const client = function (mozaik) {
         let baseURL = 'https://api.datadoghq.com/api/v1/org'
         let apiKey = config.get("datadog.api_key")
         let applicationKey = config.get('datadog.application_key')
-        let url     = baseURL + "?api_key=" + apiKey + "?application_key=" + applicationKey
+        let url     = baseURL + "?api_key=" + apiKey + "&?application_key=" + applicationKey
         let req     = request.get(url);
 
         mozaik.logger.info(chalk.yellow(`[json] calling ${ url }`));

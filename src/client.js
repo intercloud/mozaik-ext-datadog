@@ -16,9 +16,6 @@ const client = function (mozaik) {
         let url     = baseURL + "?api_key=" + apiKey + "?application_key=" + applicationKey
         let req     = request.get(url);
 
-        headers.forEach(function(header){
-            req.set(header.name, header.value);
-        });
         mozaik.logger.info(chalk.yellow(`[json] calling ${ url }`));
 
         return req.promise();

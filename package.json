@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jtbonhomme/mozaik-ext-json.git"
+    "url": "https://github.com/jtbonhomme/mozaik-ext-datadog.git"
   },
   "dependencies": {
     "chalk": "^0.5.1",
@@ -26,15 +26,15 @@
       "babelify"
     ]
   },
-  "readme": "# Mozaïk mozaik-ext-json extension !! WORK IN PROGRESS !!\n\nTo install mozaik-ext-json from npm, run:\n\n```bash\nnpm install --save mozaik-ext-json\n```",
+  "readme": "# Mozaïk mozaik-ext-datadog extension !! WORK IN PROGRESS !!\n\nTo install mozaik-ext-datadog from npm, run:\n\n```bash\nnpm install --save mozaik-ext-datadog\n```",
   "readmeFilename": "README.md",
   "gitHead": "6676fba955f528f3d2e5aa966bd06e73838dcb6d",
   "bugs": {
-    "url": "https://github.com/jtbonhomme/mozaik-ext-json/issues"
+    "url": "https://github.com/jtbonhomme/mozaik-ext-datadog/issues"
   },
-  "homepage": "https://github.com/jtbonhomme/mozaik-ext-json",
-  "_id": "mozaik-ext-json@0.0.8",
+  "homepage": "https://github.com/jtbonhomme/mozaik-ext-datadog",
+  "_id": "mozaik-ext-datadog@0.0.8",
   "scripts": {},
   "_shasum": "4ae39590eb699977f5d433f4cdd22349c1946a4f",
-  "_from": "mozaik-ext-json@^0.0.8"
+  "_from": "mozaik-ext-datadog@^0.0.8"
 }

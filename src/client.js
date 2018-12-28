@@ -11,8 +11,8 @@ const client = function (mozaik) {
 
     function buildApiRequest() {
         let baseURL = 'https://api.datadoghq.com/api/v1/org'
-        let apiKey = config.get('api_key')
-        let applicationKey = config.get('application_key')
+        let apiKey = config.get("datadog.api_key")
+        let applicationKey = config.get('datadog.application_key')
         let url     = baseURL + "?api_key=" + apiKey + "?application_key=" + applicationKey
         let req     = request.get(url);
 

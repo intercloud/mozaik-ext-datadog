@@ -1,7 +1,7 @@
 var convict = require('convict');
 
 var config = convict({
-    json: {
+    datadog: {
         url: {
           doc:     'The JSON resource url.',
           default: 'foo',

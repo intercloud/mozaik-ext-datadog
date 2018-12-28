@@ -58,11 +58,9 @@ class Data extends Component {
         //   var alter = eval("(" + this.props.alter + ")");
         //   data = alter(data);
         // }
-        // this.setState({
-        //     title: this.findProp(data, this.props.title),
-        //     value: this.findProp(data, this.props.value),
-        //     unit: this.findProp(data, this.props.unit)
-        // });
+        this.setState({
+            title: this.findProp(data, this.props.name)
+        });
     }
 
     render() {

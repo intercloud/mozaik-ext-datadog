@@ -1,7 +1,7 @@
 {
-  "name": "mozaik-ext-json",
+  "name": "mozaik-ext-datadog",
   "version": "0.0.12",
-  "description": "Mozaïk json extension",
+  "description": "Mozaïk datadog extension",
   "engines": {
     "node": "0.10.x"
   },

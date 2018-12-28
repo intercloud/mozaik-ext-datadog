@@ -25,8 +25,8 @@ const client = function (mozaik) {
         data(params) {
             return buildApiRequest()
                 .then(res => {
-                    console.log(res)
-                    return JSON.parse(res)}
+                    console.log(res.body)
+                    return JSON.parse(res.body)}
                 )
             ;
         }

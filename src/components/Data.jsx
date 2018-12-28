@@ -23,7 +23,7 @@ class Data extends Component {
 
     getApiRequest() {
         return {
-          id: 'json.data',
+          id: 'datadog.data',
           params: {
             title: this.props.title,
             value: this.props.value,

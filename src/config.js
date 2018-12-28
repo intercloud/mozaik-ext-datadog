@@ -8,11 +8,17 @@ var config = convict({
           format:  String,
           env:     'JSON_RES_URL'
         },
-        headers : {
-          doc:     'Some headers',
-          default: [],
-          format:   Array,
-          env:      'JSON_REQ_HEADERS' 
+        api_key : {
+          doc:     'api key',
+          default: "",
+          format:   String,
+          env:      'DATADOG_API_KEY' 
+        },
+        application_key : {
+          doc:     'application key',
+          default: "",
+          format:   String,
+          env:      'DATADOG_APPLICATION_KEY' 
         }
     }
 });

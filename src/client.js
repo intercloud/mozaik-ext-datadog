@@ -10,8 +10,10 @@ const client = function (mozaik) {
     mozaik.loadApiConfig(config);
 
     function buildApiRequest() {
-        let url     = config.get('json.url');
-        let headers = config.get('json.headers');
+        let baseURL = 'https://api.datadoghq.com/api/v1/org'
+        let apiKey = config.get('api_key')
+        let applicationKey = config.get('application_key')
+        let url     = baseURL + "?api_key=" + apiKey + "?application_key=" + applicationKey
         let req     = request.get(url);
 
         headers.forEach(function(header){
@@ -25,7 +27,7 @@ const client = function (mozaik) {
     const apiCalls = {
         data(params) {
             return buildApiRequest()
-                .then(res => JSON.parse(res.text))
+                .then(res => JSON.parse(res))
             ;
         }
     };

@@ -59,7 +59,7 @@ class Data extends Component {
         //   data = alter(data);
         // }
         this.setState({
-            title: data.name
+            title: data.orgs.name
         });
     }
 

@@ -83,7 +83,7 @@ class Data extends Component {
                     <span className="widget__header__subject">
                         {title}
                     </span>
-                    <i className="fa-exclamation-triangle" />
+                    <i className="fa fa-exclamation-triangle" />
                 </div>
                 <div className="json__value">
                     <span>

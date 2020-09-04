@@ -18,7 +18,7 @@
   "main": "./src/components/index.js",
   "devDependencies": {
     "mozaik": "0.0.9-beta",
-    "react": "^0.13.3",
+    "react": "^0.14.9",
     "reflux": "^0.2.5"
   },
   "browserify": {
